@@ -1,4 +1,5 @@
 import classes from "./Counter.module.css";
+import {INCREMENT} from "../store/index"
 import { Component } from "react";
 import { useSelector, useDispatch, connect } from "react-redux";
 
